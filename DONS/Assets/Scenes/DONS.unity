@@ -355,12 +355,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1950014572}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a5edc03054fb4c4cb93897fec873d19, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e491c89a0ead8b418d061c01487feed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 0}
   Fattree_K: 4
-  isAutoQuit: 1
+  isAutoQuit: 0
   IsShowGenerateTopoLogs: 0
 --- !u!1 &1968156524
 GameObject:
