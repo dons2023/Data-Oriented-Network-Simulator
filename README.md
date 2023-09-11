@@ -4,6 +4,8 @@ DONS features a data-oriented and multi-threaded simulation engine that can perf
 
 For a cluster of servers, DONS also has a novel simulation partitioning algorithm that can assist balanced parallelization. 
 
+SIGCOMM'23 paper: https://dl.acm.org/doi/10.1145/3603269.3604844
+
 # Build prerequisites
 
 Unity Editor Version: 2021.3.11f1
@@ -12,8 +14,11 @@ Unity Editor Version: 2021.3.11f1
 
 1. Git Clone -> Unity Hub -> Projects -> Open -> Choose folder "DONS"
 2. Load scene DONS.unity. Scene position: Assets/Scenes/DONS.unity
-3. Build
+
+3. Build (for running in Linux server)
 4. Copy config file to root directory ("Assets/Scripts/Resources/Settingdata.dat")
+
+Note: there are currently no meaningful UI in the scene, and the DONS frontend will be released in the future
 
 # Configuration
 
@@ -34,7 +39,7 @@ Unity Editor Version: 2021.3.11f1
 </SetttingData>
 ```
 
-# Running in Ubuntu：
+# Running in Linux server (headless mode)：
 
 **Step 1 - Build Settings**
 
@@ -85,13 +90,13 @@ Obtain related information by viewing log files
 
 # Important Links 
 
-1. [Job system](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/Docs/jobs.md)
-2. [Entities and components](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/Docs/entities-components.md)
-3. [Systems](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/Docs/systems.md)
-4. [Accessing entities in jobs](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/Docs/entities-jobs.md)
-5. [Entity command buffers](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/Docs/entity-command-buffers.md)
-6. [Transform components and systems](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/Docs/transforms.md)
-7. [Baking and entity scenes](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/Docs/baking.md)
-8. [Additional Entities features](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/Docs/additional-entities-features.md)
+1. [Job system](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/EntitiesSamples/Docs/jobs.md)
+2. [Entities and components](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/EntitiesSamples/Docs/entities-components.md)
+3. [Systems](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/EntitiesSamples/Docs/systems.md)
+4. [Accessing entities in jobs](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/EntitiesSamples/Docs/entities-jobs.md)
+5. [Entity command buffers](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/EntitiesSamples/Docs/entity-command-buffers.md)
+6. [Transform components and systems](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/EntitiesSamples/Docs/transforms.md)
+7. [Baking and entity scenes](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/EntitiesSamples/Docs/baking.md)
+8. [Additional Entities features](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/EntitiesSamples/Docs/additional-entities-features.md)
 
 ## 
