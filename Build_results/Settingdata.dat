@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SetttingData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<!-- 
+ <data>
+       <IsAutoQuit>true</IsAutoQuit>
+	   [2,4,8,16,32,64,128,....]
+	   <Fattree_K>8</Fattree_K>
+ </data>
+-->
+	<IsAutoQuit>true</IsAutoQuit>
+	<Fattree_K>8</Fattree_K>
+	<IsShowGenerateTopoLogs>false</IsShowGenerateTopoLogs>
+</SetttingData>
