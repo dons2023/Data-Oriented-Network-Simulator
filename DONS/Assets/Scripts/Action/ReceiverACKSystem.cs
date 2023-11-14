@@ -104,7 +104,7 @@ namespace Samples.DONSSystem
                                     seq_num = receiver.NextExpectedSeq,
                                     TCP_ECE = p.IP_CE,
                                 };
-                                if(receiver.RX_nums >= 1000000)
+                                if(receiver.RX_nums >= 10000)
                                 {
                                     p_ack.DSCP = 44;
                                 }
@@ -118,7 +118,7 @@ namespace Samples.DONSSystem
 
                         // if(receiver.frames % 100 == 0 && receiver.RX_nums > 0)
                         //     Debug.Log(String.Format("{0:d} recv: {1:d}", IngressPort.switch_id, receiver.RX_nums));
-                        if(receiver.RX_nums >= 1000000 && receiver.end_flag == 0) {
+                        if(receiver.RX_nums >= 10000 && receiver.end_flag == 0) {
                             receiver.EndTime = spawnTime;
                             receiver.end_flag = 1;
                             Debug.Log(String.Format("Host {0:d} End: {1:D}", IngressPort.switch_id, (long)spawnTime));

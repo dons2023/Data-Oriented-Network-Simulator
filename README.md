@@ -8,21 +8,38 @@ SIGCOMM'23 paper: https://dl.acm.org/doi/10.1145/3603269.3604844
 
 # Build prerequisites
 
-Unity Editor Version: 2021.3.11f1
+Unity Editor (version: 2021.3.11f1)
 
 # Compiling
 
-1. Git Clone -> Unity Hub -> Projects -> Open -> Choose folder "DONS"
-2. Load scene DONS.unity. Scene position: Assets/Scenes/DONS.unity
+1. Git clone this project
+2. Open Unity Hub -> Projects -> Open -> Choose folder "DONS"
+3. Load scene DONS.unity (Assets/Scenes/DONS.unity), i.e., drag the icon into the sidebar "Hierarchy"
 
-3. Build (for running in Linux server)
-4. Copy config file to root directory ("Assets/Scripts/Resources/Settingdata.dat")
+# Running in Unity Editor
 
-Note: there are currently no meaningful UI in the scene, and the DONS frontend will be released in the future
+1. Click this icon to run a simple network simulation task
+![1](Images/image-20231114104438.png)
+Simulation task: the network topology is FatTree (k = 4), in which 8 hosts send traffic to 8 other hosts, the number of packets per flow is 10k.
+2. Results: when the Console output "Host X End" represents the completion of the traffic transmission, as well as the FCT.
+![1](Images\Output-20231114111139.png)
 
-# Configuration
+Note: there are currently no meaningful UI in the scene, and the DONS frontend will be released in the future.
 
- In root directory, add the configuration file ”Settingdata.dat“， you can find it in Resources folder 
+# Running in Linux server (headless mode)：
+
+**Step 1 - Build Settings**
+
+Click File in Unity Editor, then click Build Settings.
+
+Please make sure you have something similar to the following screenshot and click Build.
+
+![1](Images/image-20230207150734479.png)
+
+
+**Step 2 - Configuration**
+
+1. We provide the template configuration file in "DONS\Assets\Scripts\Resources\Settingdata.dat".
 
 - The main field is to set the scale of the topology using Fattree_K
 
@@ -39,18 +56,7 @@ Note: there are currently no meaningful UI in the scene, and the DONS frontend w
 </SetttingData>
 ```
 
-# Running in Linux server (headless mode)：
-
-**Step 1 - Build Settings**
-
-Please make sure you have something similar to the following screenshot and click Build.
-
-![1](Images/image-20230207150734479.png)
-
-
-**Step 2 - Configuration**
-
-Copy "Assets/Scripts/Resources/Settingdata.dat" to output folder.
+2. Copy "Assets/Scripts/Resources/Settingdata.dat" to output folder.
 
 Edit it to set the scale of the topology.
 
@@ -59,17 +65,15 @@ Edit it to set the scale of the topology.
 
 **Step 3 - Running**
 
-- Copy output folder to Linux.
+1. Copy these output folders to Linux server.
 
-- Then cd output
-
-- Add the **execute** permission
+2. Add the **execute** permission
 
   ```
   chmod +x topo.x86_64
   ```
 
-- Run topo.x86_64
+3. Run a network simulation task
 
   ```
   ./topo.x86_64
@@ -77,9 +81,11 @@ Edit it to set the scale of the topology.
 
   
 
-**Step 4 - Output**
+**Step 4 - Results**
 
-Obtain related information by viewing log files
+Log file position: topo_Data/XXXX.log
+
+With logs, the distribution of FCT and congestion queue length can be analyzed.
 
 ![2](Images/image-20230207152628191.png)
 
