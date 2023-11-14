@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c0087449e845546a5aa9ba591c7544, type: 3}
+  m_Name: E2ChartOptionsProfileAll
+  m_EditorClassIdentifier: 
+  chartStyles:
+    barChartOption:
+      barWidth: 1
+      barSpacing: 1
+      enableBarBackground: 1
+      barBackgroundWidth: 1
+      barBackgroundColor: 1
+      barGradientStart: 1
+      barGradientEnd: 1
+    lineChartOption:
+      pointSize: 1
+      enableLine: 1
+      lineWidth: 1
+      enableShade: 1
+      shadeOpacity: 1
+      pointOutline: 1
+      pointOutlineWidth: 1
+      pointOutlineColor: 1
+      swapPointOutlineColor: 1
+      splineCurve: 1
+    pieChartOption:
+      seriesSpacing: 1
+      dataSpacing: 1
+      seriesColorBlend: 1
+    roseChartOption:
+      barWidth: 1
+      barSpacing: 1
+      enableBarBackground: 1
+      barBackgroundWidth: 1
+      barBackgroundColor: 1
+    radarChartOption:
+      pointSize: 1
+      enableLine: 1
+      lineWidth: 1
+      enableShade: 1
+      shadeOpacity: 1
+      pointOutline: 1
+      pointOutlineWidth: 1
+      pointOutlineColor: 1
+      swapPointOutlineColor: 1
+      circularGrid: 1
+    gaugeOption:
+      pointerStart: 1
+      pointerEnd: 1
+      pointerWidth: 1
+      pointerColor: 1
+      enableSubTick: 1
+      subtickColor: 1
+      subtickSize: 1
+      subtickDivision: 1
+      bands: 1
+    solidGaugeOption:
+      barWidth: 1
+      enableBarBackground: 1
+      barBackgroundWidth: 1
+      barBackgroundColor: 1
+  plotOptions:
+    seriesColors: 1
+    seriesIcons: 1
+    cultureInfoName: 1
+    generalFont: 1
+    colorMode: 1
+    mouseTracking: 1
+    columnStacking: 1
+    itemHighlightColor: 1
+    backgroundColor: 1
+    frontGrid: 1
+  rectOptions:
+    inverted: 1
+  circleOptions:
+    innerSize: 1
+    outerSize: 1
+    startAngle: 1
+    endAngle: 1
+    autoResize: 1
+  title:
+    enableTitle: 1
+    titleAlignment: 1
+    titleOffset: 1
+    titleTextOption:
+      color: 1
+      fontSize: 1
+      font: 1
+      customizedText: 1
+    enableSubTitle: 1
+    subtitleAlignment: 1
+    subtitleOffset: 1
+    subtitleTextOption:
+      color: 1
+      fontSize: 1
+      font: 1
+      customizedText: 1
+  xAxis:
+    enableAxisLine: 1
+    axisLineColor: 1
+    axisLineWidth: 1
+    enableGridLine: 1
+    gridLineColor: 1
+    gridLineWidth: 1
+    enableTick: 1
+    tickColor: 1
+    tickSize: 1
+    mirrored: 1
+    minPadding: 1
+    maxPadding: 1
+    enableTitle: 1
+    titleTextOption:
+      color: 1
+      fontSize: 1
+      font: 1
+      customizedText: 1
+    enableLabel: 1
+    labelContent: 1
+    labelNumericFormat: 1
+    labelTextOption:
+      color: 1
+      fontSize: 1
+      font: 1
+      customizedText: 1
+    labelRotationMode: 1
+    type: 1
+    autoAxisRange: 1
+    restrictAutoRange: 1
+    startFromZero: 1
+    min: 1
+    max: 1
+    axisDivision: 1
+    interval: 1
+  yAxis:
+    enableAxisLine: 1
+    axisLineColor: 1
+    axisLineWidth: 1
+    enableGridLine: 1
+    gridLineColor: 1
+    gridLineWidth: 1
+    enableTick: 1
+    tickColor: 1
+    tickSize: 1
+    mirrored: 1
+    minPadding: 1
+    maxPadding: 1
+    enableTitle: 1
+    titleTextOption:
+      color: 1
+      fontSize: 1
+      font: 1
+      customizedText: 1
+    enableLabel: 1
+    labelContent: 1
+    labelNumericFormat: 1
+    labelTextOption:
+      color: 1
+      fontSize: 1
+      font: 1
+      customizedText: 1
+    labelRotationMode: 1
+    type: 1
+    autoAxisRange: 1
+    restrictAutoRange: 1
+    startFromZero: 1
+    min: 1
+    max: 1
+    axisDivision: 1
+    interval: 1
+  tooltip:
+    enable: 1
+    headerContent: 1
+    pointContent: 1
+    numericFormat: 1
+    textOption:
+      color: 1
+      fontSize: 1
+      font: 1
+      customizedText: 1
+    backgroundColor: 1
+  legend:
+    enable: 1
+    position: 1
+    layout: 1
+    alignment: 1
+    spacing: 1
+    offset: 1
+    sizeLimit: 1
+    content: 1
+    numericFormat: 1
+    textOption:
+      color: 1
+      fontSize: 1
+      font: 1
+      customizedText: 1
+    enableIcon: 1
+    normalColor: 1
+    highlightedColor: 1
+    dimmedColor: 1
+  label:
+    enable: 1
+    content: 1
+    numericFormat: 1
+    textOption:
+      color: 1
+      fontSize: 1
+      font: 1
+      customizedText: 1
+    anchoredPosition: 1
+    offset: 1
+    rotationMode: 1

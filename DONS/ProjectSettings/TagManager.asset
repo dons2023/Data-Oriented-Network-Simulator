@@ -7,6 +7,17 @@ TagManager:
   - Prototype
   - Planet
   - Ship
+  - BarCanvas
+  - barTextTag
+  - DropNumText
+  - BaseInfoText
+  - performanceChart
+  - performanceButton
+  - FlowInfoE2Chart
+  - LinkCongestionE2Chart
+  - CPUchart
+  - Memorychart
+  - TestE2
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c0087449e845546a5aa9ba591c7544, type: 3}
+  m_Name: E2ChartOptionsProfileGrid
+  m_EditorClassIdentifier: 
+  chartStyles:
+    barChartOption:
+      barWidth: 0
+      barSpacing: 0
+      enableBarBackground: 0
+      barBackgroundWidth: 0
+      barBackgroundColor: 0
+    lineChartOption:
+      pointSize: 0
+      enableLine: 0
+      lineWidth: 0
+      enableShade: 0
+      shadeOpacity: 0
+      pointOutline: 0
+      pointOutlineWidth: 0
+      pointOutlineColor: 0
+      swapPointOutlineColor: 0
+      splineCurve: 0
+    pieChartOption:
+      seriesSpacing: 0
+      dataSpacing: 0
+    roseChartOption:
+      barWidth: 0
+      barSpacing: 0
+      enableBarBackground: 0
+      barBackgroundWidth: 0
+      barBackgroundColor: 0
+    radarChartOption:
+      pointSize: 0
+      enableLine: 0
+      lineWidth: 0
+      enableShade: 0
+      shadeOpacity: 0
+      pointOutline: 0
+      pointOutlineWidth: 0
+      pointOutlineColor: 0
+      swapPointOutlineColor: 0
+      circularGrid: 0
+    gaugeOption:
+      pointerStart: 0
+      pointerEnd: 0
+      pointerWidth: 0
+      pointerColor: 0
+      enableSubTick: 0
+      subtickColor: 0
+      subtickSize: 0
+      subtickDivision: 0
+      bands: 0
+    solidGaugeOption:
+      barWidth: 0
+      enableBarBackground: 0
+      barBackgroundWidth: 0
+      barBackgroundColor: 0
+  plotOptions:
+    seriesColors: 0
+    seriesIcons: 0
+    cultureInfoName: 0
+    generalFont: 0
+    colorMode: 0
+    mouseTracking: 0
+    columnStacking: 0
+    itemHighlightColor: 0
+    backgroundColor: 0
+    inverted: 0
+    frontGrid: 1
+  circle:
+    innerSize: 1
+    outerSize: 1
+    startAngle: 1
+    endAngle: 1
+    autoResize: 1
+  title:
+    enableTitle: 0
+    titleAlignment: 0
+    titleOffset: 0
+    titleTextOption:
+      color: 0
+      fontSize: 0
+      font: 0
+      customizedText: 0
+    enableSubTitle: 0
+    subtitleAlignment: 0
+    subtitleOffset: 0
+    subtitleTextOption:
+      color: 0
+      fontSize: 0
+      font: 0
+      customizedText: 0
+  xAxis:
+    enableAxisLine: 1
+    axisLineColor: 0
+    axisLineWidth: 1
+    enableGridLine: 1
+    gridLineColor: 0
+    gridLineWidth: 1
+    enableTick: 1
+    tickColor: 0
+    tickSize: 1
+    mirrored: 0
+    minPadding: 0
+    maxPadding: 0
+    enableTitle: 0
+    titleTextOption:
+      color: 0
+      fontSize: 0
+      font: 0
+      customizedText: 0
+    enableLabel: 0
+    labelContent: 0
+    labelNumericFormat: 0
+    labelTextOption:
+      color: 0
+      fontSize: 0
+      font: 0
+      customizedText: 0
+    labelRotationMode: 0
+    type: 0
+    autoAxisRange: 0
+    restrictAutoRange: 0
+    startFromZero: 0
+    min: 0
+    max: 0
+    axisDivision: 0
+    interval: 0
+  yAxis:
+    enableAxisLine: 1
+    axisLineColor: 0
+    axisLineWidth: 1
+    enableGridLine: 1
+    gridLineColor: 0
+    gridLineWidth: 1
+    enableTick: 1
+    tickColor: 0
+    tickSize: 1
+    mirrored: 0
+    minPadding: 0
+    maxPadding: 0
+    enableTitle: 0
+    titleTextOption:
+      color: 0
+      fontSize: 0
+      font: 0
+      customizedText: 0
+    enableLabel: 0
+    labelContent: 0
+    labelNumericFormat: 0
+    labelTextOption:
+      color: 0
+      fontSize: 0
+      font: 0
+      customizedText: 0
+    labelRotationMode: 0
+    type: 0
+    autoAxisRange: 0
+    restrictAutoRange: 0
+    startFromZero: 0
+    min: 0
+    max: 0
+    axisDivision: 0
+    interval: 0
+  tooltip:
+    enable: 0
+    headerContent: 0
+    pointContent: 0
+    numericFormat: 0
+    textOption:
+      color: 0
+      fontSize: 0
+      font: 0
+      customizedText: 0
+    backgroundColor: 0
+  legend:
+    enable: 0
+    position: 0
+    layout: 0
+    alignment: 0
+    spacing: 0
+    offset: 0
+    sizeLimit: 0
+    content: 0
+    numericFormat: 0
+    textOption:
+      color: 0
+      fontSize: 0
+      font: 0
+      customizedText: 0
+    enableIcon: 0
+    normalColor: 0
+    highlightedColor: 0
+    dimmedColor: 0
+  label:
+    enable: 0
+    content: 0
+    numericFormat: 0
+    textOption:
+      color: 0
+      fontSize: 0
+      font: 0
+      customizedText: 0
+    anchoredPosition: 0
+    offset: 0
+    rotationMode: 0
