@@ -18,28 +18,28 @@ SIGCOMM'23 paper: https://dl.acm.org/doi/10.1145/3603269.3604844
 8. Find the version of the DOTS packages you want to use, i.e. check https://docs.unity3d.com/Packages/com.unity.rendering.hybrid@latest
 9. Enter the package followed by the version number, e.g. `com.unity.rendering.hybrid@0.7.0-preview.24` and confirm. 
 
-This will add the **Hybrid Renderer** package and all its dependencies, e.g. **Entities**, **Burst**, **Collections**, **Jobs** and **Mathematics**. Now you can start to use DOTS in you project.
+This will add the **Hybrid Renderer** package and all its dependencies, e.g. **Entities**, **Burst**, **Collections**, **Jobs** and **Mathematics**.
 
 
 # Running in Unity Editor
 
-1. Load scene DONS.unity (Assets/Scenes/DONS.unity), i.e., drag the icon into the sidebar "Hierarchy". The Unity Editor will compile the source code automatically.
+1. Load scene Simulator.unity (Assets/Scene/Simulator.unity), i.e., drag the icon into the sidebar "Hierarchy", and remove the "Untitled" scene. The Unity Editor will compile the source code automatically.
 ![1](Images/scene-20231115123939.png)
 
 2. Click this icon to run DONS.
-![1](Images\start-20231115124104.png)
+![1](Images/start-20231115124104.png)
 
 3. Click "Start" to run a simple network simulation task.
-![1](Images\before-0231115124339.png)
+![1](Images/before-0231115124339.png)
 Network topology:  Abilene.
 Click "Setting" to change the topology and traffic demands.
 
 4. Runtime:
-![1](Images\runtime-20231115124245.png)
+![1](Images/runtime-20231115124245.png)
 The left side shows the link congestion, and the right side shows the flow completion time (FCT) in real time.
 
 5. Results: 
-![1](Images\end-20231115124908.png)
+![1](Images/end-20231115124908.png)
 Click "Congestion" to see the historical queue length data, and all the data is stored in log files.
 
 
@@ -109,14 +109,14 @@ With logs, the distribution of FCT and congestion queue length can be analyzed.
 ![2](Images/image-20230207152658318.png)
 
 
-# Folder Descriptions
+# Folder descriptions
 - Build_results: the compiled executable files, which can be run on a Linux server.
 - Distributed: distributed execution module.
 - DONS: the source code of the project.
 - Images: images used in this document.
 - traffic_gen: traffic demands generator module.
 
-# Important Links 
+# Important links 
 
 1. [Job system](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/EntitiesSamples/Docs/jobs.md)
 2. [Entities and components](https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/EntitiesSamples/Docs/entities-components.md)
