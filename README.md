@@ -14,11 +14,10 @@ SIGCOMM'23 paper: https://dl.acm.org/doi/10.1145/3603269.3604844
 4. Open the Package Manager (menu: **Window** > **Package Manager**).
 5. Click the small gear icon on the upper right and select the **Advanced Project Settings** menu item.
 6. Check **Enable Preview Packages** in the Project Settings window.
-7. In the Package Manager window, click the small `+` icon in the upper left and select **Add package from git URL...**
-8. Find the version of the DOTS packages you want to use, i.e. check https://docs.unity3d.com/Packages/com.unity.rendering.hybrid@latest
-9. Enter the package followed by the version number, e.g. `com.unity.rendering.hybrid@0.7.0-preview.24` and confirm. 
+7. In the Package Manager window, add the DOTS packages that you need by name from the package manager.
 
-This will add the **Hybrid Renderer** package and all its dependencies, e.g. **Entities**, **Burst**, **Collections**, **Jobs** and **Mathematics**.
+(These are the packages used when developing DONS.)
+![1](Images/packages-20231218091426.png)
 
 
 # Running in Unity Editor
