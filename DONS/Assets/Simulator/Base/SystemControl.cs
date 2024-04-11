@@ -20,7 +20,7 @@ namespace Assets.Advanced.DumbbellTopo.Base
                 if (_SingleInstance == null)
                 {
                     _SingleInstance = new SystemControl();
-                    _SingleInstance.Init();
+                    //_SingleInstance.Init();
                 }
                 return _SingleInstance;
             }
@@ -116,10 +116,11 @@ namespace Assets.Advanced.DumbbellTopo.Base
 
         public void EnterBuildState(/*int fattree*/)
         {
-            if (!CheckSystem())
-            {
-                _SingleInstance.Init();
-            }
+            //if (!CheckSystem())
+            //{
+            //    _SingleInstance.Init();
+            //}
+            Init();
             CDFData.GetInstance().Clear();
 
             ActionSystemGroup.All(t => t.Enabled = false);
