@@ -88,7 +88,7 @@ Debug.Log("Unity Runtime");
                     CaremaChange.Switchfattree4Cmr();
                     Debug.Log($"CaremaChange.Switchfattree4Cmr();");
                 }
-                else if (Fattree_K == 8)
+                else /*if (Fattree_K == 8)*/
                 {
                     CaremaChange.Switchfattree8Cmr();
                     Debug.Log($"CaremaChange.Switchfattree8Cmr();");
